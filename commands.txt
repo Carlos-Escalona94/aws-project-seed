@@ -1,0 +1,17 @@
+pip install virtualenv nlp
+
+source nlp/bin/activate
+
+pip install -r requirements.txt
+
+deactivate
+
+which python
+
+which pip
+
+rm -rf nlp
+
+
+
+python -m ipykernel install --user --name=nlp
